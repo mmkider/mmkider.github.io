@@ -1,6 +1,6 @@
 {
-    "name": "myhtml",
-    "short_name": "myhtml",
+    "name": "myblog",
+    "short_name": "myblog",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
