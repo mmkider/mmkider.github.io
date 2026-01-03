@@ -1,125 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>mmkider</title>
     <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self'; script-src 'none'; img-src data: *; object-src 'none'"></meta>
-    <TITLE>mmkider</TITLE>
+          content="default-src 'self'; script-src 'none'; img-src data: *; object-src 'none'">
     <style>
-        /* 定義縮排樣式 */
-.indent { margin-left: 30px; /* 改成更明顯的縮排 */ } h3 { margin-left: 0; /* 避免標題自己往右跑 */ }
-
         body {
             font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;   /* 移除項目符號 */
+            margin-left: 30px;       /* 控制縮排 */
+            padding-left: 0;
+        }
+        h3 {
+            margin-left: 0;          /* 標題靠左 */
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <h3>search</h3>
-        <div class="indent">
-            <div><a href="https://www.bing.com/">bing</a></div>
-            <div><a href="http://www.google.com.tw/">google</a></div>
-            <div><a href="http://www.baidu.com/">百度搜尋</a></div>
-            <div>
-                <h3>AI</h3>
-                <div class="indent">
-                    <div><a href="https://gemini.google.com/app?hl=zh-TW">gemini</a></div>
-                    <div><a href="https://copilot.microsoft.com/">copilot</a></div>
-                    <div><a href="https://chat.baidu.com/">deepseek</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h3>search</h3>
+    <ul>
+        <li><a href="https://www.bing.com/">bing</a></li>
+        <li><a href="http://www.google.com.tw/">google</a></li>
+        <li><a href="http://www.baidu.com/">百度搜尋</a></li>
+        <li>
+            <h3>AI</h3>
+            <ul>
+                <li><a href="https://gemini.google.com/app?hl=zh-TW">gemini</a></li>
+                <li><a href="https://copilot.microsoft.com/">copilot</a></li>
+                <li><a href="https://chat.baidu.com/">deepseek</a></li>
+            </ul>
+        </li>
+    </ul>
 
-    <div>
-        <h3>computer</h3>
-        <div class="indent">
-            <div>
-                <h3>golang</h3>
-                <div class="indent">
-                    <div><a href="https://golang.org/">golang</a></div>
-                    <div><a href="https://studygolang.com/">golang中文</a></div>
-                </div>
-            </div>
-            <div>
-                <h3>wxWidgets</h3>
-                <div class="indent">
-                    <div><a href="https://github.com/utelle/wxsqlite3">wxSqlite3</a></div>
-                    <div><a href="https://github.com/wxWidgets/wxWidgets">wxWidgets</a></div>
-                    <div><a href="https://github.com/wxFormBuilder/wxFormBuilder">wxFormBuilder</a></div>
-                </div>
-            </div>
-            <div>
-                <h3>c++ library</h3>
-                <div class="indent">
-                    <div><a href="https://curl.se/">curl</a></div>
-                    <div><a href="http://pugixml.org/">pugixml</a></div>
-                    <div><a href="https://github.com/mstorsjo/llvm-mingw/">llvm-mingw</a></div>
-                    <div><a href="http://warp.povusers.org/FunctionParser/">functionParser</a></div>
-                </div>
-            </div>
-            <div>
-                <h3>lang</h3>
-                <div class="indent">
-                    <div><a href="https://dart.dev/">dart</a></div>
-                    <div><a href="https://flutter.dev/">flutter</a></div>
-                    <div><a href="https://www.python.org/">python</a></div>
-                    <div><a href="https://developer.android.com/docs">android</a></div>
-                    <div><a href="https://developer.apple.com/documentation">ios library</a></div>
-                </div>
-            </div>
-            <div>
-                <h3>other</h3>
-                <div class="indent">
-                    <div><a href="https://www.bilibili.com/">bilibili</a></div>
-                    <div><a href="https://github.com/">github</a></div>
-                    <div><a href="https://translate.google.com.tw/?hl=zh-TW&tab=wT">google 翻譯</a></div>
-                    <div><a href="http://blog.xuite.net/mmkider/world">大世界小世界</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h3>computer</h3>
+    <ul>
+        <li>
+            <h3>golang</h3>
+            <ul>
+                <li><a href="https://golang.org/">golang</a></li>
+                <li><a href="https://studygolang.com/">golang中文</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>wxWidgets</h3>
+            <ul>
+                <li><a href="https://github.com/utelle/wxsqlite3">wxSqlite3</a></li>
+                <li><a href="https://github.com/wxWidgets/wxWidgets">wxWidgets</a></li>
+                <li><a href="https://github.com/wxFormBuilder/wxFormBuilder">wxFormBuilder</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>c++ library</h3>
+            <ul>
+                <li><a href="https://curl.se/">curl</a></li>
+                <li><a href="http://pugixml.org/">pugixml</a></li>
+                <li><a href="https://github.com/mstorsjo/llvm-mingw/">llvm-mingw</a></li>
+                <li><a href="http://warp.povusers.org/FunctionParser/">functionParser</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>lang</h3>
+            <ul>
+                <li><a href="https://dart.dev/">dart</a></li>
+                <li><a href="https://flutter.dev/">flutter</a></li>
+                <li><a href="https://www.python.org/">python</a></li>
+                <li><a href="https://developer.android.com/docs">android</a></li>
+                <li><a href="https://developer.apple.com/documentation">ios library</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>other</h3>
+            <ul>
+                <li><a href="https://www.bilibili.com/">bilibili</a></li>
+                <li><a href="https://github.com/">github</a></li>
+                <li><a href="https://translate.google.com.tw/?hl=zh-TW&tab=wT">google 翻譯</a></li>
+                <li><a href="http://blog.xuite.net/mmkider/world">大世界小世界</a></li>
+            </ul>
+        </li>
+    </ul>
 
-    <div>
-        <h3>everyDay</h3>
-        <div class="indent">
-            <div>
-                <h3>news</h3>
-                <div class="indent">
-                    <div><a href="https://www.csdn.net/">csdn</a></div>
-                    <div><a href="https://tw.yahoo.com/">yahoo</a></div>
-                </div>
-            </div>
-            <div>
-                <h3>stock</h3>
-                <div class="indent">
-                    <div><a href="https://www.yuanta.com.tw/eyuanta/">元大證券</a></div>
-                    <div><a href="https://mops.twse.com.tw/">公開資訊觀測站</a></div>
-                    <div><a href="https://goodinfo.tw/tw/index.asp">Goodinfo!台灣股市</a></div>
-                    <div><a href="https://bsr.twse.com.tw/bshtm/">買賣日報表查詢系統</a></div>
-                    <div><a href="https://www.tpex.org.tw/web/">證券櫃檯買賣中心上櫃</a></div>
-                    <div><a href="https://www.twse.com.tw/zh/">臺灣證券交易所中心上市</a></div>
-                </div>
-            </div>
-            <div>
-                <h3>bank</h3>
-                <div class="indent">
-                    <div><a href="https://www.yuantabank.com.tw/bank/">元大銀行</a></div>
-                    <div><a href="https://www.ctbcbank.com/twrbo/zh_tw/index.html">中信銀行</a></div>
-                    <div><a href="https://www.taishinbank.com.tw/">台新銀行</a></div>
-                </div>
-            </div>
-            <div>
-                <h3>Other</h3>
-                <div class="indent">
-                    <div><a href="http://www.stockq.org/">國際報價</a></div>
-                    <div><a href="https://tv.moneydj.com/tv/">moneydj視頻</a></div>
-                    <div><a href="https://www.moneydj.com/KMDJ/Wiki/WikiHome.aspx">moneydj財經百科</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h3>everyDay</h3>
+    <ul>
+        <li>
+            <h3>news</h3>
+            <ul>
+                <li><a href="https://www.csdn.net/">csdn</a></li>
+                <li><a href="https://tw.yahoo.com/">yahoo</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>stock</h3>
+            <ul>
+                <li><a href="https://www.yuanta.com.tw/eyuanta/">元大證券</a></li>
+                <li><a href="https://mops.twse.com.tw/">公開資訊觀測站</a></li>
+                <li><a href="https://goodinfo.tw/tw/index.asp">Goodinfo!台灣股市</a></li>
+                <li><a href="https://bsr.twse.com.tw/bshtm/">買賣日報表查詢系統</a></li>
+                <li><a href="https://www.tpex.org.tw/web/">證券櫃檯買賣中心上櫃</a></li>
+                <li><a href="https://www.twse.com.tw/zh/">臺灣證券交易所中心上市</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>bank</h3>
+            <ul>
+                <li><a href="https://www.yuantabank.com.tw/bank/">元大銀行</a></li>
+                <li><a href="https://www.ctbcbank.com/twrbo/zh_tw/index.html">中信銀行</a></li>
+                <li><a href="https://www.taishinbank.com.tw/">台新銀行</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>Other</h3>
+            <ul>
+                <li><a href="http://www.stockq.org/">國際報價</a></li>
+                <li><a href="https://tv.moneydj.com/tv/">moneydj視頻</a></li>
+                <li><a href="https://www.moneydj.com/KMDJ/Wiki/WikiHome.aspx">moneydj財經百科</a></li>
+            </ul>
+        </li>
+    </ul>
 </body>
 </html>
