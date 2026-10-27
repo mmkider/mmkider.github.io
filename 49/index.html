@@ -1,36 +1,35 @@
-
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self'; script-src 'none'; img-src data: https: http:; object-src 'none'">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+          content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'none'; img-src data: *; object-src 'none'">
     <title>mmkider</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        a,
-        a:link,
-        a:visited,
-        a:hover,
-        a:active {
-            text-decoration: none !important;
-        }
-
         .indent {
             margin-left: 2em;
         }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        a {
+            text-decoration: none; /* 去掉底線 */
+        }
+        /* 如果想滑鼠移上去才出現底線，可取消下面註解
+        a:hover {
+            text-decoration: underline;
+        }
+        */
     </style>
 </head>
 <body>
-    <h3>search</h3>
+<!-- 財經相關 -->
+<div>
     <div class="indent">
+        <h3>search</h3>
         <div><a href="https://www.bing.com/">bing</a></div>
-        <div><a href="https://www.google.com.tw/">google</a></div>
-        <div><a href="https://www.baidu.com/">百度搜尋</a></div>
+        <div><a href="http://www.google.com.tw/">google</a></div>
+        <div><a href="http://www.baidu.com/">百度搜尋</a></div>
     </div>
 
     <h3>AI</h3>
@@ -39,7 +38,7 @@
         <div><a href="https://gemini.google.com/app?hl=zh-TW">gemini</a></div>
         <div><a href="https://chatgpt.com/">chatgpt</a></div>
         <div><a href="https://copilot.microsoft.com/">copilot</a></div>
-        <div><a href="https://grok.com/">grok</a></div>
+        <div><a href="https://grok.com">grok</a></div>
     </div>
 
     <h3>財經</h3>
@@ -73,11 +72,14 @@
 
     <h3>other</h3>
     <div class="indent">
-        <div><a href="https://www.stockq.org/">國際報價</a></div>
+        <div><a href="http://www.stockq.org/">國際報價</a></div>
         <div><a href="https://tv.moneydj.com/tv/">moneydj視頻</a></div>
         <div><a href="https://www.moneydj.com/KMDJ/Wiki/WikiHome.aspx">moneydj財經百科</a></div>
     </div>
+</div>
 
+<!-- 電腦程式相關 -->
+<div>
     <h3>taichi</h3>
     <div class="indent">
         <div><a href="https://sqlite.org/">sqlite</a></div>
@@ -113,5 +115,6 @@
         <div><a href="http://blog.xuite.net/mmkider/world">大世界小世界</a></div>
         <div><a href="https://goodinfo.tw/tw/index.asp">Goodinfo!台灣股市</a></div>
     </div>
+</div>
 </body>
 </html>
